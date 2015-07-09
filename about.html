@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+    
+    <!-- Specify a default language -->
+     
+    <html lang="en">
+     
+        <head>
+    <!-- Define the character set  -->
+     
+            <meta charset="utf-8">
+ 
+    <!-- Load the stylesheets  -->
+
+            <link rel="stylesheet" href="style\">
+            <link rel="icon" href="image\">
+                       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     
+    <!-- Set the title of your application -->
+     
+            <title>My Portfolio</title>
+     
+            <!-- 
+                As you may or may not have already
+                realized, HTML5 isn't supported in
+                older versions of internet explorer.
+     
+                To compensate for this, you should
+                use html5shiv to add support to
+                HTML5.
+     
+                The code used to do this, will only
+                work inside the HEAD, however.
+     
+                And for performance sake, this should
+                go after the CSS.
+            -->
+     
+            <!--[if lt IE 9]>
+                <script src="dist/html5shiv.js"></script>
+            <![endif]-->
+     		<style>
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+
+
+#animation3 {
+    width: 1000px;
+    height: 100px;
+    background-color: #336699;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+</style>
+        </head>
+     
+    <body>
+
+    <header>
+
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+    <li>
+    <a href="index.html">Home</a></li>
+     <li class="active"><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    
+    </ul>
+    </div>
+</nav>
+        <hgroup>
+            
+        </hgroup>
+     
+    </header>
+    
+    <div class="container">
+     
+    <!-- 
+        Despite the addition of new
+        elements that justifably
+        captures a lot of DIV's territory,
+        you can still use them.
+     
+        The best practice is to use
+        DIVs when there is no other
+        more semantically appropiate
+        element that suits your
+        purpoe.
+    -->
+     
+  
+    <div class="jumbotron" align="center">
+
+    <h1><strong>Muhammad Saad Qadeer</strong></h1>
+    <h2>Bachelors Of Computer Science Nust-H12, Islamabad</h2>
+    </div>
+
+    
+    <article>
+     
+            <hgroup>
+            <div id="animation3">
+                <h2>About Me</h2>
+            </hgroup>
+            <div class="container">
+             <h3>Programming Skills</h3>
+             <p>C Programming Language, C++ Language, Java, OOP, JavaScript, Jquery, Html, CSS</p>
+             <h3>Education</h3>
+             <p>Matriculation : Marks 78%</p>
+             <p>Fsc-Pre-Engineering : Marks 79%</p>
+             <p>Bachelor's Of Computer Science : Continue...</p>
+     </div>
+            
+     
+        </article>
+        <footer>Copyright @me.me</footer>

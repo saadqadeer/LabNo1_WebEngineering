@@ -1,0 +1,414 @@
+    <!DOCTYPE html>
+    
+    <!-- Specify a default language -->
+     
+    <html lang="en">
+     
+        <head>
+
+
+
+
+    <!-- Define the character set  -->
+            <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+            <meta charset="utf-8">
+            <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css' />
+    <!-- Load the stylesheets  -->
+
+            <link rel="stylesheet" href="style\">
+            <link rel="icon" href="image\">
+                       <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+     
+    <!-- Set the title of your application -->
+     
+            <title>My Portfolio</title>
+     
+            <!-- 
+                As you may or may not have already
+                realized, HTML5 isn't supported in
+                older versions of internet explorer.
+     
+                To compensate for this, you should
+                use html5shiv to add support to
+                HTML5.
+     
+                The code used to do this, will only
+                work inside the HEAD, however.
+     
+                And for performance sake, this should
+                go after the CSS.
+            -->
+     
+            <!--[if lt IE 9]>
+                <script src="dist/html5shiv.js"></script>
+            <![endif]-->
+     		<style>
+
+        
+#div1 {width:350px;height:70px;padding:10px;border:1px solid #aaaaaa;}
+#animation {
+    font-family: 'Tangerine', serif;
+    font-size:12px;
+    width: 100px;
+    height: 100px;
+    background: black;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+#animation:hover {
+    width: 300px;
+}
+
+
+#animation2 {
+    width: 100px;
+    height: 100px;
+    background: #6699CC;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+#animation2:hover {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+#animation3 {
+    width: 100px;
+    height: 100px;
+    background-color: #336699;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+
+#animation4 {
+    width: 100px;
+    height: 100px;
+    background-color: #6699FF;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+</style>
+
+
+
+
+
+        </head>
+     
+    <body>
+    
+    	 <header>
+
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+    <li class="active">
+        <a href="index.html">Home</a></li>
+         <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       </ul></div>
+</nav>
+        <hgroup>
+            
+        </hgroup>
+     
+    </header>
+
+
+    <div class="container">
+     
+    <!-- 
+        Despite the addition of new
+        elements that justifably
+        captures a lot of DIV's territory,
+        you can still use them.
+     
+        The best practice is to use
+        DIVs when there is no other
+        more semantically appropiate
+        element that suits your
+        purpoe.
+    -->
+    <div class="jumbotron" align="center">
+
+    <h1><strong>Muhammad Saad Qadeer</strong></h1>
+    <h2>Bachelors Of Computer Science Nust-H12, Islamabad</h2>
+    </div>
+    <div class="main">
+    
+	   <article>
+     
+            <hgroup>
+                <h3>CSS TRANSITIONS</h3>
+            </hgroup>
+  			 <ul>
+	           
+			</ul>
+              <div class="row">
+
+              <div class="col-md-1">
+              <div id="animation"><font color="#ADD8E6">My name is Saad Qadeer, Hover Me To See The Magic</font></div>
+              
+              </div>
+
+              <div class="col-md-1">
+              </div>
+
+
+              <div class="col-md-1">
+              <div id="animation2"><font face="Open Sans" color="white">My name is Saad Qadeer, Hover Me To See The Magic</font></div>
+              
+
+            
+
+              </div>
+
+              <div class="col-md-1">
+              </div>
+
+              <div class="col-md-1">
+              <div id="animation3"><font face="Josefin Slab" color="white">My name is Saad Qadeer, Hover Me To See The Magic</font></div>
+              
+              </div>
+
+              <div class="col-md-1">
+              </div>
+
+
+              <div class="col-md-1">
+              <div id="animation4"><font face="Lato" color="white">My name is Saad Qadeer, Hover Me To See The Magic</font></div>
+              
+              </div>
+
+
+
+              </div>
+
+
+
+              <div style="margin: 15px 0px 0px; display: inline-block; text-align: center; width: 200px;"><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: rgb(255, 255, 255);"><a href="" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);"> </a></div><script type="text/javascript" src="http://localtimes.info/clock.php?&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=000000&fwdt=200&ham=0&hbg=0&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=1000"></script></div>
+              <p>Click Above To Start The Clock</p>
+
+           
+     
+        <div class="container">
+              <div id="wrapper">
+        <p>
+            <button class="btn btn-success">Show HTML Element</button>
+            <button class="btn btn-danger">Hide HTML Element</button>
+        </p>
+        <br />
+        <div class="hidden">
+           Hello Welcome :)
+        </div>
+    </div></div>
+     
+            <hgroup>
+                <h3>Who am I?</h3>
+            </hgroup>
+                <p>I am a Human Being</p>
+                <p>I live to eat, drink and play!</p>
+                <p>I like coding!!</p>
+     
+            <footer><time datetime="2015-03-23">This is a date</time></footer>
+     
+        </article>
+     	   <article>
+            <p>Finding your location: <span id="status">checking...</span></p>
+         </article>
+
+<p>Drag the the image into the rectangle:</p>
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="img_logo.gif" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+    </div>
+
+
+    
+
+    <style type="text/css">
+        /* Fade-In Effect */
+        .visible
+        {
+            visibility: visible;
+            opacity: 1;
+            transition: opacity 2s linear;
+        }
+
+        /* Fade-Out Effect */
+        .hidden
+        {
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s 2s, opacity 2s linear;
+        }
+
+        #wrapper > div
+        {
+            background: none repeat scroll 0 0 #f5f;
+            border: 5px solid #808080;
+            border-radius: 50px;
+            padding: 10px;
+            width: 250px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        // Add query Selector
+        var showButtonClick = document.querySelector("#wrapper button:nth-of-type(1)"),
+            hideButtonClick = document.querySelector("#wrapper button:nth-of-type(2)"),
+            content = document.querySelector("#wrapper > div");
+
+        // Show wrapper div content
+        showButtonClick.addEventListener("click", function () {
+            content.className = "visible";
+        }, false);
+
+        // Hide wrapper div content
+        hideButtonClick.addEventListener("click", function () {
+            content.className = "hidden";
+        }, false);
+    </script>
+     
+    <footer>Copyright @me.me</footer>
+     
+    <!-- 
+        Including JQuery; a fast, small, and feature-rich
+        JS lib. "Write less, do more."
+    -->
+     
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+     <script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.font = "30px Arial";
+ctx.strokeText("Hello World",10,50);
+</script>
+<script>
+function success(position) {
+  var s = document.querySelector('#status');
+  
+  if (s.className == 'success') {
+    // not sure why we're hitting this twice in FF, I think it's to do with a cached result coming back    
+    return;
+  }
+  
+  s.innerHTML = "found you!";
+  s.className = 'success';
+  
+  var mapcanvas = document.createElement('div');
+  mapcanvas.id = 'mapcanvas';
+  mapcanvas.style.height = '400px';
+  mapcanvas.style.width = '560px';
+    
+  document.querySelector('article').appendChild(mapcanvas);
+  
+  var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
+  var myOptions = {
+    zoom: 15,
+    center: latlng,
+    mapTypeControl: false,
+    navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+  var map = new google.maps.Map(document.getElementById("mapcanvas"), myOptions);
+  
+  var marker = new google.maps.Marker({
+      position: latlng, 
+      map: map, 
+      title:"You are here! (at least within a "+position.coords.accuracy+" meter radius)"
+  });
+}
+
+function error(msg) {
+  var s = document.querySelector('#status');
+  s.innerHTML = typeof msg == 'string' ? msg : "failed";
+  s.className = 'fail';
+  
+  // console.log(arguments);
+}
+
+if (navigator.geolocation) {
+  navigator.geolocation.getCurrentPosition(success, error);
+} else {
+  error('not supported');
+}
+
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+    </div>
+
+
+
+
+</body>
+</html>
